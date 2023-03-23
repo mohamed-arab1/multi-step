@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App{
+  background-color: #eef5ff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  height: 84%;
+  width: 65%;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+}
+
+.sidebar{
+  background-image: url("./images/bg-sidebar-desktop.svg");
+}
+
+.custom-checkbox{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.custom-checkbox .checkmark{
+  width: 100%;
+  height: 100%;
+  border: 2px solid #d8d8d8;
+  display: inline-block;
+  border-radius: 3px;
+  background:#433dff url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/1200px-White_check.svg.png) center/1200% no-repeat;
+}
+
+.custom-checkbox input:checked + .checkmark{
+  background-size: 60%;
+}
+
+.custom-checkbox input{
+  display: none;
+}
+
+
+@media screen and (max-width: 1050px){
+  .container{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 950px){
+  .container{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 687px){
+  .container{
+    position: relative;
+    background-color: #eef5ff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+  }
+}
