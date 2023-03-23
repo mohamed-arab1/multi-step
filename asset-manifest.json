@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/template1-react/static/css/main.fb5548a8.css",
+    "main.js": "/template1-react/static/js/main.c1bd88c6.js",
+    "static/media/bg-sidebar-desktop.svg": "/template1-react/static/media/bg-sidebar-desktop.6918153f38678372ceb1.svg",
+    "static/media/icon-advanced.svg": "/template1-react/static/media/icon-advanced.705bd10c4c1f688871d729633f0ca4ae.svg",
+    "static/media/icon-thank-you.svg": "/template1-react/static/media/icon-thank-you.ee753f231cc5a5789b8eb922a96472c0.svg",
+    "static/media/icon-pro.svg": "/template1-react/static/media/icon-pro.2e7e377da9c658d608624304a0f8dae6.svg",
+    "index.html": "/template1-react/index.html",
+    "static/media/icon-arcade.svg": "/template1-react/static/media/icon-arcade.a08c098289a31bb2f66d675be71565b3.svg",
+    "main.fb5548a8.css.map": "/template1-react/static/css/main.fb5548a8.css.map",
+    "main.c1bd88c6.js.map": "/template1-react/static/js/main.c1bd88c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb5548a8.css",
+    "static/js/main.c1bd88c6.js"
+  ]
+}
